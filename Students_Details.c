@@ -25,7 +25,7 @@ int main()
         printf("\nEnter details of Student %d\n", i + 1 );
 
         printf("Enter Name: ");
-        scanf(" %c", s[i].name);
+        scanf(" %49[^\n]", s[i].name);
 
         printf("Enter Roll Number: ");
         scanf("%d", &s[i].roll);
