@@ -5,7 +5,7 @@ int main()
     char str[100];
     int i;
 
-    printf("Enter a uppercase sentence: ");
+    printf("Enter a Uppercase sentence: ");
     fgets(str, sizeof(str), stdin);
 
     for (i = 0; str[i] != '\0'; i++)
