@@ -5,6 +5,7 @@ int main()
     int a[10][10], b[10][10], sub[10][10];
     int r, c, i, j;
 
+    printf("matrix Subtraction \n");
     printf("Enter number of rows and columns: ");
     scanf("%d %d", &r, &c);
 
