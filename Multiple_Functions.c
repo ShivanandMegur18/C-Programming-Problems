@@ -5,6 +5,7 @@ int add(int a, int b);
 int subtract(int a, int b);
 int multiply(int a, int b);
 float divide(int a, int b);
+int and(int a, int b);
 
 int main()
 {
@@ -19,6 +20,7 @@ int main()
     printf("\n2. Subtraction (-)");
     printf("\n3. Multiplication (*)");
     printf("\n4. Division (/)");
+    printf("\n5. AND operation");
     printf("\nEnter your choice: ");
     scanf("%d", &choice);
 
@@ -41,6 +43,10 @@ int main()
                 printf("Result = %.2f\n", divide(a, b));
             else
                 printf("Error: Division by zero is not allowed.\n");
+            break;
+
+        case 5:
+            printf("Result = %d\n", and(a, b));
             break;
 
         default:
@@ -69,4 +75,9 @@ int multiply(int a, int b)
 float divide(int a, int b)
 {
     return (float)a / b;
+}
+
+int and(int a, int b)
+{
+    return a & b;
 }
