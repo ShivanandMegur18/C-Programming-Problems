@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void multiplication()
 {
     int num, i, result;
 
@@ -15,6 +15,9 @@ int main()
 
         printf("%d x %d = %d\n", num, i, result);
     }
+}
+int main(){
+    multiplication();
 
     return 0;
 }
