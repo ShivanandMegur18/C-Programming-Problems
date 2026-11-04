@@ -5,6 +5,8 @@ int main()
     float num1, num2, result;
     char op;
 
+    printf("calculater");
+    
     printf("Enter the first number: ");
     scanf("%f", &num1);
 
