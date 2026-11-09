@@ -12,14 +12,14 @@ int fibonacci(int n)
 
 int main()
 {
-    int n, i;
+    int n;
 
     printf("Enter number of terms: ");
     scanf("%d", &n);
 
     printf("Fibonacci Series: ");
 
-    for (i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         printf("%d ", fibonacci(i));
     }
