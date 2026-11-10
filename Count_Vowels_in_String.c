@@ -3,7 +3,8 @@
 int main()
 {
 char str[100];
-int i, count = 0;
+int i;
+count = 0;
 
 printf("Enter a string: ");
 scanf("%99[^\n]", str);
